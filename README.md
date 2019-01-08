@@ -4,6 +4,8 @@ An online musicplayer developed with react.
 播放器音源暂时取自于网易云音乐的歌单
 ## 技术栈
 react+webpack+redux/react-redux
+## 图片预览
+
 ## 本地运行
 ```
 git clone https://github.com/xinrucishi/react-musicplayer.git
