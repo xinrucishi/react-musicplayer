@@ -1,0 +1,52 @@
+.albumPic {
+    background: center url(./images/1514183907353380.jpg);
+    /*background-position-y: -80px;*/
+    background-size: cover;
+    height: 280px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.trackInfo {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.name {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0 20px 10px 20px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@keyframes marquee {
+    0% {
+        text-indent: 100%;
+    }
+    100% {
+        text-indent: -100%;
+    }
+}
+
+.name:hover {
+    text-align: left;
+    animation: marquee 5s linear 2;
+}
+
+.artist, .album {
+    color: #d4d4d4
+}
+
+#playlist {
+    position: absolute;
+    right: 30px;
+    top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: orange;
+}

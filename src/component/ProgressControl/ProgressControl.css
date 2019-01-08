@@ -1,0 +1,64 @@
+.progress {
+    /*width: 30%;*/
+    margin: auto 20px;
+    height: 6px;
+    background-color: #e3e3e3;
+    cursor: pointer;
+}
+
+.controlwrap {
+    height: 25%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls {
+    width: 100%;
+    position: relative;
+}
+
+.play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #72696a;
+    border-radius: 50%;
+    font-size: 30px;
+    margin: auto;
+}
+
+.play:hover {
+    font-size: 35px;
+}
+
+.btn {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    font-size: 30px;
+}
+
+.previous {
+    left: 15%
+}
+
+.next {
+    right: 15%
+}
+
+.time {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 10px;
+}
